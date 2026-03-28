@@ -8,3 +8,4 @@ name = "rx"
 path = "src/lib.rs"
 
 [dependencies]
+zip = { version = "4", default-features = false, features = ["deflate-flate2", "deflate-flate2-zlib-rs"] }
